@@ -1,9 +1,8 @@
 html {
     box-sizing: border-box;
-    background: #ffc600;
-    font-family: 'helvetica neue';
+    background: black;
+    font-family: 'Permanent Marker', cursive;
     font-size: 20px;
-    font-weight: 200;
 }
     
 body {
@@ -39,11 +38,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-.panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
-.panel2 { background-image:url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500); }
-.panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
-.panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
-.panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
+.panel1 { background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Hoh_National_Rainforest.jpg/1920px-Hoh_National_Rainforest.jpg); }
+.panel2 { background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Russell_Falls_2.jpg/1920px-Russell_Falls_2.jpg); }
+.panel3 { background-image:url(https://cdn.europosters.eu/image/1300/wall-murals/caribbean-sea-i25297.jpg); }
+.panel4 { background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Feathery_Snow_Crystals_%282217830221%29.jpg/1920px-Feathery_Snow_Crystals_%282217830221%29.jpg); }
+.panel5 { background-image:url(https://images6.alphacoders.com/727/727280.jpg); }
     
 /* Flex Children/Items */
 .panel > * {
@@ -64,12 +63,11 @@ body {
 
 .panel p {
     text-transform: uppercase;
-    font-family: 'Amatic SC', cursive;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-    font-size: 2em;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.72), 0 0 16px rgba(0, 0, 0, 0.45);
+    font-size: 1em;
 }
 .panel p:nth-child(2) {
-    font-size: 4em;
+    font-size: 2em;
 }
 .panel.open {
     flex: 5;
